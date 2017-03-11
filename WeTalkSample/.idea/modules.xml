@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OBTalkSample.iml" filepath="$PROJECT_DIR$/OBTalkSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeTalkSample.iml" filepath="$PROJECT_DIR$/WeTalkSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obtalksdk/obtalksdk.iml" filepath="$PROJECT_DIR$/obtalksdk/obtalksdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wetalksdk/wetalksdk.iml" filepath="$PROJECT_DIR$/wetalksdk/wetalksdk.iml" />
+    </modules>
+  </component>
+</project>
