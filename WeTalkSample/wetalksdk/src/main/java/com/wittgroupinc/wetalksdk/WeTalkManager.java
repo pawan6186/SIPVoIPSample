@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.util.Log;
 
-import com.wittgroupinc.wetalksdk.models.OBTUser;
+import com.wittgroupinc.wetalksdk.models.WeTalkUser;
 import com.wittgroupinc.wetalksdk.utils.LogUtil;
 
 import org.pjsip.pjsua2.AccountConfig;
@@ -103,7 +103,7 @@ public class WeTalkManager implements IWeTalkManager, WeTalkObserver {
     }
 
     @Override
-    public boolean registerUser(OBTUser user, WeTalkCallBack callBack) {
+    public boolean registerUser(WeTalkUser user, WeTalkCallBack callBack) {
         return registerUser(user.getUsername(), user.getPassword(), callBack);
 
     }
